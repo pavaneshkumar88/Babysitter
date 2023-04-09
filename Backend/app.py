@@ -4,7 +4,7 @@ from flask_bcrypt import Bcrypt
 from config import ApplicationConfig
 from flask_cors import CORS
 from models import db, User
-#CHECKIG GIT PUSH
+
 app = Flask(__name__)
 
 app.config.from_object(ApplicationConfig)
